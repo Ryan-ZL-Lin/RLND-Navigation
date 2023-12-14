@@ -4,8 +4,9 @@ I'm using Deep Q-Network as the learning algorithm to train the model. It contai
 
 # Plot of Rewards
 Here is the screenshot for the plot of rewards (scores). it shows that I successfully gain +13 score within 600 consecutive episodes.
-![Reward Trend](https://github.com/Ryan-ZL-Lin/RLND-Navigation/assets/33056320/2ca2b4d6-0603-48f0-97df-64bec4eca808)
-![Reward Plot](https://github.com/Ryan-ZL-Lin/RLND-Navigation/assets/33056320/95fa3c75-e625-4f0a-b8bb-782601624804)
+<img width="466" alt="Reward Trend_New" src="https://github.com/Ryan-ZL-Lin/RLND-Navigation/assets/33056320/35abb6de-518e-4a9f-9dd4-fb5ff18e5dd9">
+<img width="493" alt="Reward Plot_New" src="https://github.com/Ryan-ZL-Lin/RLND-Navigation/assets/33056320/9a01fcf3-52c5-48d7-b017-2d4288bd7c35">
+
 
 
 # Ideas for furure work
