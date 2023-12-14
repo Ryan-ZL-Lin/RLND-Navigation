@@ -14,3 +14,26 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 3 - turn right.
 
 The task is episodic, and in order to solve the environment wihtin 1800 episodes.
+
+
+## Getting Started
+
+### Training Code: Navigation.ipynb
+1: Setup the environment and install packages in the workspace.
+2: Start the environment
+3: Examine the state and action space.
+4: Training Code implementation
+  4.1: Initiate the agent (with Epsilon Decay parameter)
+  4.2: Initiate the environment
+  4.3: Train the agent iwith DQN
+  4.4: Plot out the average score during the training process (2000 episodes)
+
+### AI Agent Code: dqn_agent.py
+It contains the following parts
+- the Class and Functions that describe how DQN agent work with Reply Buffer
+- the hyper parameters such as Buffer Size, Batch Size, Learning Rate, etc.
+
+### Neural Network Architecture: model.py
+- It uses Pythorch as the Frmework.
+- Totally three Fully Connected layers and two RELU Activation Layers are used to construct the model architecture.
+
