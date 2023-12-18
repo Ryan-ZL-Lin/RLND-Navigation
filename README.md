@@ -18,27 +18,30 @@ The task is episodic, and the environment is considered sovled when the trained 
 
 ## Getting Started
 
-Download the environment from one of the links below. You need only select the environment that matches your operating system:
+1. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
+    - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
+    - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
+    - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
+    - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
+    
+    (_For Windows users_) Check out [this link](https://support.microsoft.com/en-us/help/827218/how-to-determine-whether-a-computer-is-running-a-32-bit-version-or-64) if you need help with determining if your computer is running a 32-bit version or 64-bit version of the Windows operating system.
 
-Linux: click here
-Mac OSX: click here
-Windows (32-bit): click here
-Windows (64-bit): click here
-(For Windows users) Check out this link if you need help with determining if your computer is running a 32-bit version or 64-bit version of the Windows operating system.
+    (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
 
-(For AWS) If you'd like to train the agent on AWS (and have not enabled a virtual screen), then please use this link to obtain the environment.
-
-Place the file in the DRLND GitHub repository, in the p1_navigation/ folder, and unzip (or decompress) the file.
+2. Place the file in the DRLND GitHub repository, in the `p1_navigation/` folder, and unzip (or decompress) the file. 
 
 
 ## Instruction
 Open Navigation.ipynb and execute the cell one by one, you will go through the traning code and see the final traning outcome as a chart. The final model weights is saved in **model.pt**.
 
 ### Training Code: Navigation.ipynb
-1: Setup the environment and install packages in the workspace.  
-2: Start the environment  
-3: Examine the state and action space.  
-4: Training Code implementation  
+1: Setup the environment and install packages in the workspace.
+
+2: Start the environment
+
+3: Examine the state and action space.
+
+4: Training Code implementation
 - Initiate the agent (with Epsilon Decay parameter)  
 - Initiate the environment  
 - Train the agent iwith DQN  
