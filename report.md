@@ -20,10 +20,10 @@ Once enough sampling processes are taken and stored in the memory, the algoright
 
 
 # Plot of Rewards
-Here is the screenshot for the plot of rewards (scores). it shows that I successfully gain +13 score within 600 consecutive episodes.
-<img width="466" alt="Reward Trend_New" src="https://github.com/Ryan-ZL-Lin/RLND-Navigation/assets/33056320/35abb6de-518e-4a9f-9dd4-fb5ff18e5dd9">
-<img width="493" alt="Reward Plot_New" src="https://github.com/Ryan-ZL-Lin/RLND-Navigation/assets/33056320/9a01fcf3-52c5-48d7-b017-2d4288bd7c35">
+Here is the screenshot for the plot of rewards (scores). it shows that I successfully gain +13 score within 516 consecutive episodes.
 
+<img width="446" alt="Reward Trend_Update" src="https://github.com/Ryan-ZL-Lin/RLND-Navigation/assets/33056320/ca788dd7-b5d0-4833-b4e4-723ead36e854">
+<img width="412" alt="Reward Plot_Update" src="https://github.com/Ryan-ZL-Lin/RLND-Navigation/assets/33056320/d248075e-daa2-4aaf-8c4f-a1d5d8c2690d">
 
 
 # Ideas for furure work
