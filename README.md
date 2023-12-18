@@ -18,6 +18,22 @@ The task is episodic, and the environment is considered sovled when the trained 
 
 ## Getting Started
 
+Download the environment from one of the links below. You need only select the environment that matches your operating system:
+
+Linux: click here
+Mac OSX: click here
+Windows (32-bit): click here
+Windows (64-bit): click here
+(For Windows users) Check out this link if you need help with determining if your computer is running a 32-bit version or 64-bit version of the Windows operating system.
+
+(For AWS) If you'd like to train the agent on AWS (and have not enabled a virtual screen), then please use this link to obtain the environment.
+
+Place the file in the DRLND GitHub repository, in the p1_navigation/ folder, and unzip (or decompress) the file.
+
+
+## Instruction
+Open Navigation.ipynb and execute the cell one by one, you will go through the traning code and see the final traning outcome as a chart. The final model weights is saved in **model.pt**.
+
 ### Training Code: Navigation.ipynb
 1: Setup the environment and install packages in the workspace.
 2: Start the environment
@@ -39,7 +55,3 @@ It contains the following parts
 
 ### Trained Model Weights
 It's saved in mode.pt.
-
-## Instruction
-Open Navigation.ipynb and execute the cell one by one, you will go through the traning code and see the final traning outcome as a chart. The final model weights is saved in **model.pt**.
-
