@@ -54,7 +54,7 @@ It contains the following parts
 
 ### Neural Network Architecture: model.py
 - It uses Pythorch as the Frmework.
-- Totally three Fully Connected layers and two RELU Activation Layers are used to construct the model architecture.
+- Totally two Fully Connected layers and two RELU Activation Layers are used to construct the model architecture.
 
 ### Trained Model Weights
 It's saved in mode.pt.
