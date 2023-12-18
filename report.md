@@ -1,7 +1,7 @@
 # Learning Algorithm
 I'm using Deep Q-Network as the learning algorithm to train the model. It contains 2 Fully Connected Layers (64 units) and two RELU Activation Layers. Besdies, the "Reply Buffer" is also used in the algorithm to ensure the learning process will take the past learning experience as reference, please see dqn_agemnt.py for further details.
 
-State --> FC1 (64 units) --> FC2 (64 units) --> Action
+State --> Fully Connected Layer 1 (64 units) --> Fully Connected Layer 2 (64 units) --> Action
 
 ## Hyperparameters
 - Buffer Size: 1e5
