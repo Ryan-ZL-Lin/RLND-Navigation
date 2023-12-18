@@ -27,5 +27,5 @@ Here is the screenshot for the plot of rewards (scores). it shows that I success
 
 
 # Ideas for furure work
-1. use Doulble DQN to improve the performance.
-2. use Prioritized Experience Reply to improve the performance.
+1. Use Doulble DQN to improve the performance.
+2. Use Prioritized Experience Reply to improve the performance.
