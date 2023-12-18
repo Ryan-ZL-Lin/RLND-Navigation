@@ -3,7 +3,15 @@ I'm using Deep Q-Network as the learning algorithm to train the model. It contai
 
 State --> FC1 (64 units) --> FC2 (64 units) --> Action
 
-# Hyperparameters
+## Hyperparameters
+- Buffer Size: 1e5
+- Batch Size: 64
+- Learning Rate: 5e-4
+- GAMMA(discount factor): 0.99
+- UPDATE_EVERY(how many t steps will the algorithm update the network): 4
+- SEED: 0
+- Epsilon Decay: 0.995
+
 
 
 # Plot of Rewards
